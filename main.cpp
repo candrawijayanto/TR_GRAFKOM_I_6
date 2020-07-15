@@ -72,7 +72,7 @@ void drawBox()
 	glVertex3f(0.8, -0.2, -0.2);
 	glVertex3f(-0.2, -0.2, -0.2);
 	glEnd();
-
+//danie;l
 }
 
 bool init()
