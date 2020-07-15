@@ -17,7 +17,7 @@ float zmovement = 0.0f;
 class myObject {
 public:
 	void drawing() {
-		
+
 		glPointSize(2);
 		glBegin(GL_POINT);
 			glVertex3i(0,0,0);
@@ -131,7 +131,7 @@ void idle()
 
 	glutPostRedisplay();
 }
-
+//daniel
 void keyboard(unsigned char key, int x, int y)
 {
 	switch (key) {
