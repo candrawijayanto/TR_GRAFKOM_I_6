@@ -340,7 +340,68 @@ void tampil(void){
         glVertex3f(-60,25,70);
     glEnd();
 
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-20,25,70);
+        glVertex3f(-20,-40,70);
+        glVertex3f(10,-40,70);
+        glVertex3f(10,25,70);
+    glEnd();
 
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(30,25,60);
+        glVertex3f(30,-40,60);
+        glVertex3f(10,-40,70);
+        glVertex3f(10,25,70);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(30,25,60);
+        glVertex3f(30,-40,60);
+        glVertex3f(60,-40,40);
+        glVertex3f(60,25,40);
+    glEnd();
+
+    //D4
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(60,-40,40);
+        glVertex3f(60,25,40);
+        glVertex3f(75,25,10);
+        glVertex3f(75,-40,10);
+    glEnd();
+
+    //D5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(75,-40,10);
+        glVertex3f(75,25,10);
+        glVertex3f(65,25,-10);
+        glVertex3f(65,-40,-10);
+    glEnd();
+ 
+    //D6
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(50,25,-40);
+        glVertex3f(50,-40,-40);
+        glVertex3f(65,-40,-10);
+        glVertex3f(65,25,-10);
+    glEnd();
+
+    //D7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(45,-40,-70);
+        glVertex3f(45,25,-70);
+        glVertex3f(50,25,-40);
+        glVertex3f(50,-40,-40);
+    glEnd();
 
     glPushMatrix();
     glPopMatrix();
@@ -442,4 +503,3 @@ void ukuran(int lebar,int tinggi){
     glTranslatef(0.0,-40.0,-300.0);
     glMatrixMode(GL_MODELVIEW);
 }
-
