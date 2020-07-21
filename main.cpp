@@ -1529,6 +1529,552 @@ void lantai6(){
     glEnd();
 }
 
+void lantai7(){
+    //A1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(45,255,-95);
+        glVertex3f(45,215,-95);
+        glVertex3f(45,215,-70);
+        glVertex3f(45,255,-70);
+    glEnd();
+
+    //A2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(45,255,-95);
+        glVertex3f(45,215,-95);
+        glVertex3f(70,215,-110);
+        glVertex3f(70,255,-110);
+    glEnd();
+
+    //A3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(70,215,-110);
+        glVertex3f(70,255,-110);
+        glVertex3f(95,255,-130);
+        glVertex3f(95,215,-130);
+    glEnd();
+
+    //A4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(95,255,-130);
+        glVertex3f(95,215,-130);
+        glVertex3f(95,215,-210);
+        glVertex3f(95,255,-210);
+    glEnd();
+
+    //A5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,215,-210);
+        glVertex3f(95,255,-210);
+        glVertex3f(60,255,-270);
+        glVertex3f(60,215,-270);
+    glEnd();
+
+    //A6 beta
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(60,255,-270);
+        glVertex3f(60,215,-270);
+        glVertex3f(10,215,-280);
+        glVertex3f(10,255,-280);
+    glEnd();
+
+        //A7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(10,215,-280);
+        glVertex3f(10,255,-280);
+        glVertex3f(-20,255,-265);
+        glVertex3f(-20,215,-265);
+    glEnd();
+
+    //B1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-20,255,-265);
+        glVertex3f(-20,215,-265);
+        glVertex3f(-60,215,-280);
+        glVertex3f(-60,255,-280);
+    glEnd();
+
+    //B2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-60,215,-280);
+        glVertex3f(-60,255,-280);
+        glVertex3f(-95,255,-270);
+        glVertex3f(-95,215,-270);
+    glEnd();
+
+    //B3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-95,255,-270);
+        glVertex3f(-95,215,-270);
+        glVertex3f(-123,215,-260);
+        glVertex3f(-123,255,-260);
+    glEnd();
+
+    //B4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-123,255,-260);
+        glVertex3f(-123,215,-260);
+        glVertex3f(-150,215,-230);
+        glVertex3f(-150,255,-230);
+    glEnd();
+
+    //B5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-150,215,-230);
+        glVertex3f(-150,255,-230);
+        glVertex3f(-160,255,-190);
+        glVertex3f(-160,215,-190);
+    glEnd();
+
+    //B6
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-160,255,-190);
+        glVertex3f(-160,215,-190);
+        glVertex3f(-140,215,-145);
+        glVertex3f(-140,255,-145);
+    glEnd();
+
+    //B7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-140,215,-145);
+        glVertex3f(-140,255,-145);
+        glVertex3f(-115,255,-105);
+        glVertex3f(-115,215,-105);
+    glEnd();
+
+    //C1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-115,255,-105);
+        glVertex3f(-115,215,-105);
+        glVertex3f(-115,215,-70);
+        glVertex3f(-115,255,-70);
+    glEnd();
+
+    //C2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-115,215,-70);
+        glVertex3f(-115,255,-70);
+        glVertex3f(-80,255,0);
+        glVertex3f(-80,215,0);
+    glEnd();
+
+    //C3
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-80,255,0);
+        glVertex3f(-80,215,0);
+        glVertex3f(-55,215,10);
+        glVertex3f(-55,255,10);
+    glEnd();
+
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-55,255,10);
+        glVertex3f(-55,215,10);
+        glVertex3f(-10,215,10);
+        glVertex3f(-10,255,10);
+    glEnd();
+
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(10,255,0);
+        glVertex3f(10,215,0);
+        glVertex3f(-10,215,10);
+        glVertex3f(-10,255,10);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(45,215,-70);
+        glVertex3f(45,255,-70);
+        glVertex3f(10,255,0);
+        glVertex3f(10,215,0);
+    glEnd();
+}
+
+void lantai8(){
+    //A1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(45,290,-95);
+        glVertex3f(45,260,-95);
+        glVertex3f(45,260,-70);
+        glVertex3f(45,290,-70);
+    glEnd();
+
+    //A2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(45,290,-95);
+        glVertex3f(45,260,-95);
+        glVertex3f(70,260,-110);
+        glVertex3f(70,290,-110);
+    glEnd();
+
+    //A3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(70,260,-110);
+        glVertex3f(70,290,-110);
+        glVertex3f(95,290,-130);
+        glVertex3f(95,260,-130);
+    glEnd();
+
+    //A4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(95,290,-130);
+        glVertex3f(95,260,-130);
+        glVertex3f(95,260,-210);
+        glVertex3f(95,290,-210);
+    glEnd();
+
+    //A5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,260,-210);
+        glVertex3f(95,290,-210);
+        glVertex3f(60,290,-270);
+        glVertex3f(60,260,-270);
+    glEnd();
+
+    //A6 beta
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(60,290,-270);
+        glVertex3f(60,260,-270);
+        glVertex3f(10,260,-280);
+        glVertex3f(10,290,-280);
+    glEnd();
+
+        //A7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(10,260,-280);
+        glVertex3f(10,290,-280);
+        glVertex3f(-20,290,-265);
+        glVertex3f(-20,260,-265);
+    glEnd();
+
+    //B1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-20,290,-265);
+        glVertex3f(-20,260,-265);
+        glVertex3f(-60,260,-280);
+        glVertex3f(-60,290,-280);
+    glEnd();
+
+    //B2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-60,260,-280);
+        glVertex3f(-60,290,-280);
+        glVertex3f(-95,290,-270);
+        glVertex3f(-95,260,-270);
+    glEnd();
+
+    //B3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-95,290,-270);
+        glVertex3f(-95,260,-270);
+        glVertex3f(-123,260,-260);
+        glVertex3f(-123,290,-260);
+    glEnd();
+
+    //B4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-123,290,-260);
+        glVertex3f(-123,260,-260);
+        glVertex3f(-150,260,-230);
+        glVertex3f(-150,290,-230);
+    glEnd();
+
+    //B5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-150,260,-230);
+        glVertex3f(-150,290,-230);
+        glVertex3f(-160,290,-190);
+        glVertex3f(-160,260,-190);
+    glEnd();
+
+    //B6
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-160,290,-190);
+        glVertex3f(-160,260,-190);
+        glVertex3f(-140,260,-145);
+        glVertex3f(-140,290,-145);
+    glEnd();
+
+    //B7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-140,260,-145);
+        glVertex3f(-140,290,-145);
+        glVertex3f(-115,290,-105);
+        glVertex3f(-115,260,-105);
+    glEnd();
+
+    //C1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-115,290,-105);
+        glVertex3f(-115,260,-105);
+        glVertex3f(-115,260,-70);
+        glVertex3f(-115,290,-70);
+    glEnd();
+
+    //C2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-115,260,-70);
+        glVertex3f(-115,290,-70);
+        glVertex3f(-80,290,-30);
+        glVertex3f(-80,260,-30);
+    glEnd();
+
+    //C3
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-80,290,-30);
+        glVertex3f(-80,260,-30);
+        glVertex3f(-55,260,-20);
+        glVertex3f(-55,290,-20);
+    glEnd();
+
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-55,260,-20);
+        glVertex3f(-55,290,-20);
+        glVertex3f(-10,290,-20);
+        glVertex3f(-10,260,-20);
+    glEnd();
+
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(10,290,-30);
+        glVertex3f(10,260,-30);
+        glVertex3f(-10,260,-20);
+        glVertex3f(-10,290,-20);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(45,260,-70);
+        glVertex3f(45,290,-70);
+        glVertex3f(10,290,-30);
+        glVertex3f(10,260,-30);
+    glEnd();
+}
+
+void lantai9(){
+    //A1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(45,335,-95);
+        glVertex3f(45,295,-95);
+        glVertex3f(45,295,-70);
+        glVertex3f(45,335,-70);
+    glEnd();
+
+    //A2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(45,335,-95);
+        glVertex3f(45,295,-95);
+        glVertex3f(70,295,-110);
+        glVertex3f(70,335,-110);
+    glEnd();
+
+    //A3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(70,295,-110);
+        glVertex3f(70,335,-110);
+        glVertex3f(95,335,-130);
+        glVertex3f(95,295,-130);
+    glEnd();
+
+    //A4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(95,335,-130);
+        glVertex3f(95,295,-130);
+        glVertex3f(95,295,-210);
+        glVertex3f(95,335,-210);
+    glEnd();
+
+    //A5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,295,-210);
+        glVertex3f(95,335,-210);
+        glVertex3f(60,335,-270);
+        glVertex3f(60,295,-270);
+    glEnd();
+
+    //A6 beta
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(60,335,-270);
+        glVertex3f(60,295,-270);
+        glVertex3f(10,295,-280);
+        glVertex3f(10,335,-280);
+    glEnd();
+
+        //A7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(10,295,-280);
+        glVertex3f(10,335,-280);
+        glVertex3f(-20,335,-265);
+        glVertex3f(-20,295,-265);
+    glEnd();
+
+    //B1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-20,335,-265);
+        glVertex3f(-20,295,-265);
+        glVertex3f(-60,295,-280);
+        glVertex3f(-60,335,-280);
+    glEnd();
+
+    //B2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-60,295,-280);
+        glVertex3f(-60,335,-280);
+        glVertex3f(-95,335,-270);
+        glVertex3f(-95,295,-270);
+    glEnd();
+
+    //B3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-95,335,-270);
+        glVertex3f(-95,295,-270);
+        glVertex3f(-123,295,-260);
+        glVertex3f(-123,335,-260);
+    glEnd();
+
+    //B4
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-123,335,-260);
+        glVertex3f(-123,295,-260);
+        glVertex3f(-150,295,-230);
+        glVertex3f(-150,335,-230);
+    glEnd();
+
+    //B5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-150,295,-230);
+        glVertex3f(-150,335,-230);
+        glVertex3f(-160,335,-190);
+        glVertex3f(-160,295,-190);
+    glEnd();
+
+    //B6
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-160,335,-190);
+        glVertex3f(-160,295,-190);
+        glVertex3f(-140,295,-145);
+        glVertex3f(-140,335,-145);
+    glEnd();
+
+    //B7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-140,295,-145);
+        glVertex3f(-140,335,-145);
+        glVertex3f(-115,335,-105);
+        glVertex3f(-115,295,-105);
+    glEnd();
+
+    //C1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-115,335,-105);
+        glVertex3f(-115,295,-105);
+        glVertex3f(-115,295,-70);
+        glVertex3f(-115,335,-70);
+    glEnd();
+
+    //C2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(-115,295,-70);
+        glVertex3f(-115,335,-70);
+        glVertex3f(-80,335,-30);
+        glVertex3f(-80,295,-30);
+    glEnd();
+
+    //C3
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(-80,335,-30);
+        glVertex3f(-80,295,-30);
+        glVertex3f(-55,295,-20);
+        glVertex3f(-55,335,-20);
+    glEnd();
+
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+        glVertex3f(-55,295,-20);
+        glVertex3f(-55,335,-20);
+        glVertex3f(-10,335,-20);
+        glVertex3f(-10,295,-20);
+    glEnd();
+
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+        glVertex3f(10,335,-30);
+        glVertex3f(10,295,-30);
+        glVertex3f(-10,295,-20);
+        glVertex3f(-10,335,-20);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,0);
+        glVertex3f(45,295,-70);
+        glVertex3f(45,335,-70);
+        glVertex3f(10,335,-30);
+        glVertex3f(10,295,-30);
+    glEnd();
+}
+
 // LANTAI
 
 // LINE
@@ -3002,6 +3548,371 @@ void line6(){
         glVertex3f(10,215,0);
     glEnd();
 }
+
+void line7(){
+    //A1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,255,-95);
+        glVertex3f(45,260,-95);
+        glVertex3f(45,260,-70);
+        glVertex3f(45,255,-70);
+    glEnd();
+
+    //A2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,255,-95);
+        glVertex3f(45,260,-95);
+        glVertex3f(70,260,-110);
+        glVertex3f(70,255,-110);
+    glEnd();
+
+    //A3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(70,260,-110);
+        glVertex3f(70,255,-110);
+        glVertex3f(95,255,-130);
+        glVertex3f(95,260,-130);
+    glEnd();
+
+    //A4
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,255,-130);
+        glVertex3f(95,260,-130);
+        glVertex3f(95,260,-210);
+        glVertex3f(95,255,-210);
+    glEnd();
+
+    //A5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,260,-210);
+        glVertex3f(95,255,-210);
+        glVertex3f(60,255,-270);
+        glVertex3f(60,260,-270);
+    glEnd();
+
+    //A6 beta
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(60,255,-270);
+        glVertex3f(60,260,-270);
+        glVertex3f(10,260,-280);
+        glVertex3f(10,255,-280);
+    glEnd();
+
+        //A7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(10,260,-280);
+        glVertex3f(10,255,-280);
+        glVertex3f(-20,255,-265);
+        glVertex3f(-20,260,-265);
+    glEnd();
+
+    //B1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-20,255,-265);
+        glVertex3f(-20,260,-265);
+        glVertex3f(-60,260,-280);
+        glVertex3f(-60,255,-280);
+    glEnd();
+
+    //B2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-60,260,-280);
+        glVertex3f(-60,255,-280);
+        glVertex3f(-95,255,-270);
+        glVertex3f(-95,260,-270);
+    glEnd();
+
+    //B3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-95,255,-270);
+        glVertex3f(-95,260,-270);
+        glVertex3f(-123,260,-260);
+        glVertex3f(-123,255,-260);
+    glEnd();
+
+    //B4
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-123,255,-260);
+        glVertex3f(-123,260,-260);
+        glVertex3f(-150,260,-230);
+        glVertex3f(-150,255,-230);
+    glEnd();
+
+    //B5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-150,260,-230);
+        glVertex3f(-150,255,-230);
+        glVertex3f(-160,255,-190);
+        glVertex3f(-160,260,-190);
+    glEnd();
+
+    //B6
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-160,255,-190);
+        glVertex3f(-160,260,-190);
+        glVertex3f(-140,260,-145);
+        glVertex3f(-140,255,-145);
+    glEnd();
+
+    //B7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-140,260,-145);
+        glVertex3f(-140,255,-145);
+        glVertex3f(-115,255,-105);
+        glVertex3f(-115,260,-105);
+    glEnd();
+
+    //C1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-115,255,-105);
+        glVertex3f(-115,260,-105);
+        glVertex3f(-115,260,-70);
+        glVertex3f(-115,255,-70);
+    glEnd();
+
+    //C2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-115,260,-70);
+        glVertex3f(-115,255,-70);
+        glVertex3f(-80,255,0);
+        glVertex3f(-80,260,0);
+    glEnd();
+
+    //C3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-80,255,0);
+        glVertex3f(-80,260,0);
+        glVertex3f(-55,260,10);
+        glVertex3f(-55,255,10);
+    glEnd();
+
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-55,255,10);
+        glVertex3f(-55,260,10);
+        glVertex3f(-10,260,10);
+        glVertex3f(-10,255,10);
+    glEnd();
+
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(10,255,0);
+        glVertex3f(10,260,0);
+        glVertex3f(-10,260,10);
+        glVertex3f(-10,255,10);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,260,-70);
+        glVertex3f(45,255,-70);
+        glVertex3f(10,255,0);
+        glVertex3f(10,260,0);
+    glEnd();
+}
+
+void line8(){
+    //A1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,290,-95);
+        glVertex3f(45,295,-95);
+        glVertex3f(45,295,-70);
+        glVertex3f(45,290,-70);
+    glEnd();
+
+    //A2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,290,-95);
+        glVertex3f(45,295,-95);
+        glVertex3f(70,295,-110);
+        glVertex3f(70,290,-110);
+    glEnd();
+
+    //A3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(70,295,-110);
+        glVertex3f(70,290,-110);
+        glVertex3f(95,290,-130);
+        glVertex3f(95,295,-130);
+    glEnd();
+
+    //A4
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,290,-130);
+        glVertex3f(95,295,-130);
+        glVertex3f(95,295,-210);
+        glVertex3f(95,290,-210);
+    glEnd();
+
+    //A5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(95,295,-210);
+        glVertex3f(95,290,-210);
+        glVertex3f(60,290,-270);
+        glVertex3f(60,295,-270);
+    glEnd();
+
+    //A6 beta
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(60,290,-270);
+        glVertex3f(60,295,-270);
+        glVertex3f(10,295,-280);
+        glVertex3f(10,290,-280);
+    glEnd();
+
+        //A7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(10,295,-280);
+        glVertex3f(10,290,-280);
+        glVertex3f(-20,290,-265);
+        glVertex3f(-20,295,-265);
+    glEnd();
+
+    //B1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-20,290,-265);
+        glVertex3f(-20,295,-265);
+        glVertex3f(-60,295,-280);
+        glVertex3f(-60,290,-280);
+    glEnd();
+
+    //B2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-60,295,-280);
+        glVertex3f(-60,290,-280);
+        glVertex3f(-95,290,-270);
+        glVertex3f(-95,295,-270);
+    glEnd();
+
+    //B3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-95,290,-270);
+        glVertex3f(-95,295,-270);
+        glVertex3f(-123,295,-260);
+        glVertex3f(-123,290,-260);
+    glEnd();
+
+    //B4
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-123,290,-260);
+        glVertex3f(-123,295,-260);
+        glVertex3f(-150,295,-230);
+        glVertex3f(-150,290,-230);
+    glEnd();
+
+    //B5
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-150,295,-230);
+        glVertex3f(-150,290,-230);
+        glVertex3f(-160,290,-190);
+        glVertex3f(-160,295,-190);
+    glEnd();
+
+    //B6
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-160,290,-190);
+        glVertex3f(-160,295,-190);
+        glVertex3f(-140,295,-145);
+        glVertex3f(-140,290,-145);
+    glEnd();
+
+    //B7
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-140,295,-145);
+        glVertex3f(-140,290,-145);
+        glVertex3f(-115,290,-105);
+        glVertex3f(-115,295,-105);
+    glEnd();
+
+    //C1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-115,290,-105);
+        glVertex3f(-115,295,-105);
+        glVertex3f(-115,295,-70);
+        glVertex3f(-115,290,-70);
+    glEnd();
+
+    //C2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-115,295,-70);
+        glVertex3f(-115,290,-70);
+        glVertex3f(-80,290,-30);
+        glVertex3f(-80,295,-30);
+    glEnd();
+
+    //C3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-80,290,-30);
+        glVertex3f(-80,295,-30);
+        glVertex3f(-55,295,-20);
+        glVertex3f(-55,290,-20);
+    glEnd();
+
+    //D1
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(-55,295,-20);
+        glVertex3f(-55,290,-20);
+        glVertex3f(-10,290,-20);
+        glVertex3f(-10,295,-20);
+    glEnd();
+
+    //D2
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(10,290,-30);
+        glVertex3f(10,295,-30);
+        glVertex3f(-10,295,-20);
+        glVertex3f(-10,290,-20);
+    glEnd();
+
+    //D3
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+        glVertex3f(45,295,-70);
+        glVertex3f(45,290,-70);
+        glVertex3f(10,290,-30);
+        glVertex3f(10,295,-30);
+    glEnd();
+}
+
 // LINE
 
 // ATAP
@@ -3495,6 +4406,126 @@ void atapAtas6_2(){
     glEnd();
 }
 
+void atapAtas7(){
+    glBegin(GL_POLYGON);
+    glColor3ub(0,255,0);
+        //titik a
+        glVertex3f(45,255,-95); //a1
+        glVertex3f(70,255,-110); //a2
+        glVertex3f(95,255,-130); //a3
+        glVertex3f(95,255,-210); //a4
+        glVertex3f(60,255,-270); //a5
+        glVertex3f(10,255,-280); //a6
+        glVertex3f(-20,255,-265); //a7
+        //titik b
+        glVertex3f(-60,255,-280); //b1
+        glVertex3f(-95,255,-270); //b2
+        glVertex3f(-123,255,-260); //b3
+        glVertex3f(-150,255,-230); //b4
+        glVertex3f(-160,255,-190); //b5
+        glVertex3f(-140,255,-145); //b6
+        glVertex3f(-115,255,-105); //b7
+        //titik c
+        glVertex3f(-115,255,-70); //c1
+        glVertex3f(-80,255,0); //c2
+        glVertex3f(-55,255,10); //c3
+        //titik d
+        glVertex3f(-10,255,10); //d1
+        glVertex3f(10,255,0); //d2
+        glVertex3f(45,255,-70); //d3
+    glEnd();
+}
+
+void atapAtas7_2(){
+    glBegin(GL_POLYGON);
+    glColor3ub(0,255,0);
+        //titik a
+        glVertex3f(45,260,-95); //a1
+        glVertex3f(70,260,-110); //a2
+        glVertex3f(95,260,-130); //a3
+        glVertex3f(95,260,-210); //a4
+        glVertex3f(60,260,-270); //a5
+        glVertex3f(10,260,-280); //a6
+        glVertex3f(-20,260,-265); //a7
+        //titik b
+        glVertex3f(-60,260,-280); //b1
+        glVertex3f(-95,260,-270); //b2
+        glVertex3f(-123,260,-260); //b3
+        glVertex3f(-150,260,-230); //b4
+        glVertex3f(-160,260,-190); //b5
+        glVertex3f(-140,260,-145); //b6
+        glVertex3f(-115,260,-105); //b7
+        //titik c
+        glVertex3f(-115,260,-70); //c1
+        glVertex3f(-80,260,0); //c2
+        glVertex3f(-55,260,10); //c3
+        //titik d
+        glVertex3f(-10,260,10); //d1
+        glVertex3f(10,260,0); //d2
+        glVertex3f(45,260,-70); //d3
+    glEnd();
+}
+
+void atapAtas8(){
+    glBegin(GL_POLYGON);
+    glColor3ub(0,255,0);
+        //titik a
+        glVertex3f(45,290,-95); //a1
+        glVertex3f(70,290,-110); //a2
+        glVertex3f(95,290,-130); //a3
+        glVertex3f(95,290,-210); //a4
+        glVertex3f(60,290,-270); //a5
+        glVertex3f(10,290,-280); //a6
+        glVertex3f(-20,290,-265); //a7
+        //titik b
+        glVertex3f(-60,290,-280); //b1
+        glVertex3f(-95,290,-270); //b2
+        glVertex3f(-123,290,-260); //b3
+        glVertex3f(-150,290,-230); //b4
+        glVertex3f(-160,290,-190); //b5
+        glVertex3f(-140,290,-145); //b6
+        glVertex3f(-115,290,-105); //b7
+        //titik c
+        glVertex3f(-115,290,-70); //c1
+        glVertex3f(-80,290,-30); //c2
+        glVertex3f(-55,290,-20); //c3
+        //titik d
+        glVertex3f(-10,290,-20); //d1
+        glVertex3f(10,290,-30); //d2
+        glVertex3f(45,290,-70); //d3
+    glEnd();
+}
+
+void atapAtas8_2(){
+    glBegin(GL_POLYGON);
+    glColor3ub(0,255,0);
+        //titik a
+        glVertex3f(45,295,-95); //a1
+        glVertex3f(70,295,-110); //a2
+        glVertex3f(95,295,-130); //a3
+        glVertex3f(95,295,-210); //a4
+        glVertex3f(60,295,-270); //a5
+        glVertex3f(10,295,-280); //a6
+        glVertex3f(-20,295,-265); //a7
+        //titik b
+        glVertex3f(-60,295,-280); //b1
+        glVertex3f(-95,295,-270); //b2
+        glVertex3f(-123,295,-260); //b3
+        glVertex3f(-150,295,-230); //b4
+        glVertex3f(-160,295,-190); //b5
+        glVertex3f(-140,295,-145); //b6
+        glVertex3f(-115,295,-105); //b7
+        //titik c
+        glVertex3f(-115,295,-70); //c1
+        glVertex3f(-80,295,-30); //c2
+        glVertex3f(-55,295,-20); //c3
+        //titik d
+        glVertex3f(-10,295,-20); //d1
+        glVertex3f(10,295,-30); //d2
+        glVertex3f(45,295,-70); //d3
+    glEnd();
+}
+
 // ATAP
 
 void tampil(void){
@@ -3543,6 +4574,20 @@ void tampil(void){
     line6();
     atapAtas6_2();
 
+    //LANTAI 7
+    lantai7();
+    atapAtas7();
+    line7();
+    atapAtas7_2();
+
+    // //LANTAI 8
+    lantai8();
+    atapAtas8();
+    line8();
+    atapAtas8_2();
+
+    // //LANTAI 9
+    lantai9();
 
     glPushMatrix();
     glPopMatrix();
